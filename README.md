@@ -16,6 +16,8 @@ Proyek ini adalah sistem prediksi keberhasilan penjualan produk Laris/Tidak Lari
 4. **Data Cleaning:** Penanganan otomatis untuk nilai kosong (NaN) agar integrasi data lancar
 
 ## Cara menjalankan proyek
+# ML
+run semua cell di ml_1.ipynb untuk mendapatkan model_final.pkl jika ingin mencoba atau tidak ada
 
 # backend
 ```bash 
@@ -31,6 +33,7 @@ cd frontend
 npm install
 npm run dev
 ```
+
 akses UI di **http://localhost:5173**
 
 # akses umum 
