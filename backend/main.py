@@ -12,7 +12,7 @@ app = FastAPI()
 #atur cors agar hanya bisa diakses http://localhost:5173
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173"],
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
